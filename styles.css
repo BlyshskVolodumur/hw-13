@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.header .logo {
+    width: 50px;
+    height: auto;
+}
+
+.header .nav-item {
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.section {
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.section .section-content {
+    margin: 0;
+}
+
+.section .section-title {
+    margin-bottom: 10px;
+}
+
+.section .section-text {
+    margin: 10px 0;
+}
+
+.section .section-subtitle {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+.team-title {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    flex: 1 1 200px;
+    text-align: center;
+    margin: 10px;
+}
+
+.team-member .team-img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.team-member .team-name {
+    margin: 10px 0;
+}
+
+.team-member .team-role {
+    margin: 10px 0;
+}
+
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    margin: 5px 0;
+}
